@@ -1,0 +1,58 @@
+<ion-view>
+  <ion-content>
+<ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title">Il profilo di {{scan.user_id}}</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="logout()">Logout</button>
+    </div>
+</ion-header-bar>
+  <div style="height:50px;"></div>
+
+        <label class="item item-input">
+          filename:<input type="text"  filename="filename" placeholder="filename" ng-model="scan.filename">
+        </label>
+
+        <label class="item item-input">
+          photo_uri:<input type="text"  placeholder="photo_uri"  filename="photo_uri" ng-model="scan.photo_uri">
+        </label>
+
+        <label class="item item-input">
+          asymmetry:<input type="text" placeholder="asymmetry"  filename="asymmetry" ng-model="scan.asymmetry">
+        </label>
+
+        <label class="item item-input">
+          border:<input type="text"  placeholder="border"   filename="border" ng-model="scan.border">
+        </label>
+
+        <label class="item item-input">
+         color:<input type="text" placeholder="color" filename="color"  ng-model="scan.color">
+        </label>
+
+        <label class="item item-input">
+          diamater:<input type="text" placeholder="diamater" filename="diamater"  ng-model="scan.diamater">
+        </label>
+        <label class="item item-input">
+         desc:<input type="text" placeholder="desc" filename="desc"  ng-model="scan.desc">
+        </label>
+        <label class="item item-input">
+          itch:<input type="text" placeholder="itch" filename="itch"  ng-model="scan.itch">
+        </label>
+        <label class="item item-input">
+          fire:<input type="text" placeholder="fire" filename="fire"  ng-model="scan.fire">
+        </label>
+        <label class="item item-input">
+          puffy:<input type="text" placeholder="puffy" filename="puffy"  ng-model="scan.puffy">
+        </label>
+        <label class="item item-input">
+          pain:<input type="text" placeholder="pain" filename="pain"  ng-model="scan.pain">
+        </label>
+
+        <button class="button button-full button-positive" ng-click="addScan()">
+            Conferma Scansione
+        </button>
+         <button class="button button-full button-positive" ng-click="showHome()">
+            Return to home
+        </button>
+
+    </ion-content>
+</ion-view>

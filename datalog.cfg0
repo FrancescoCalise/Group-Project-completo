@@ -1,0 +1,118 @@
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8794 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, processManagement: { fork: true }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:02:38.212+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:02:38.212+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:02:38.212+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:02:38.212+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:04:09.637+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:04:09.640+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8801 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:04:09.640+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:04:09.640+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:04:09.641+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:04:09.641+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:04:09.641+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:04:09.641+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:04:31.341+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8808 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, processManagement: { fork: true }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:04:31.346+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:04:31.346+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:04:31.346+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:04:31.346+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:04:45.686+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8812 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:04:45.690+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:04:45.690+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:04:45.690+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:04:45.690+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:04:46.650+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8815 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:04:46.653+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:04:46.654+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:04:46.654+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:04:46.654+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:04:46.654+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:04:46.654+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:04:46.654+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:07:46.488+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] MongoDB starting : pid=9012 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, processManagement: { fork: true }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:07:46.493+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:07:46.493+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:07:46.493+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:07:46.493+0200 I CONTROL  [initandlisten] shutting down with code:100
+2017-06-06T13:09:45.060+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] MongoDB starting : pid=9040 port=26050 dbpath=/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 64-bit host=Francescocalise
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] db version v3.4.2
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] modules: none
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] build environment:
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T13:09:45.069+0200 I CONTROL  [initandlisten] options: { net: { port: 26050 }, processManagement: { fork: true }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0" }, systemLog: { destination: "file", logAppend: true, path: "/home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/datalog.cfg0" } }
+2017-06-06T13:09:45.070+0200 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /home/francescocalise/Documenti/progettiGP/Group-project-COMPLETO/data/cfg0 not found., terminating
+2017-06-06T13:09:45.070+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T13:09:45.070+0200 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T13:09:45.070+0200 I CONTROL  [initandlisten] now exiting
+2017-06-06T13:09:45.070+0200 I CONTROL  [initandlisten] shutting down with code:100

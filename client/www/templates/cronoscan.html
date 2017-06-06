@@ -1,0 +1,118 @@
+<ion-view>  
+    <ion-header-bar align-title="center" class="bar-positive">
+        <h1 class="title" ng-repeat="scan in scans">I nei di {{scan.user_id}}</h1>
+        <div class="buttons">
+        <button class="button button-clear" ng-click="logout()">Logout</button>
+        </div>
+    </ion-header-bar>
+        <div style="height:80px;"></div>
+
+        <div id="ricerca" style="width:100%;height:100px;padding-left:10px;">
+            <div id="testo"><h3>Sei interessato a:</h3></div>
+                <div id="input">    
+                    <input style="background-color:#387ef5;" type="text" ng-model="query" placeholder="stai cercando..."/>
+            </div>
+        </div> 
+        
+
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <td>filename</td>
+                <td>photo_uri</td>
+                <td>date</td>
+                <td>asymmetry</td>
+                <td>border</td>
+                <td>color</td>
+                <td>diamater</td>
+                <td>type</td>
+                <td>desc</td>
+                <td>body_part</td>
+                <td>itch</td>
+                <td>puffy</td>
+                <td>fire</td>
+                <td>pain</td>
+             </tr>
+             <tr ng-repeat="scan in scans|filter:query">
+                 
+                 <td>
+                    <label class="item item-input">
+                         {{scan.filename}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.photo_uri}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                      {{scan.date}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                        {{scan.asymmetry}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.border}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.color}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.diamater}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.type}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.desc}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.body_part}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.itch}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.puffy}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.fire}}
+                    </label>
+                 </td>
+                 <td>
+                    <label class="item item-input">
+                       {{scan.fire}}
+                    </label>
+                 </td>
+             </tr>
+        </table>
+
+
+
+         <button class="button button-full button-positive" ng-click="showHome()">
+            Return to home
+        </button>
+
+    </ion-content>
+</ion-view>
+

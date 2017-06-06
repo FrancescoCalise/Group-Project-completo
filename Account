@@ -1,0 +1,10 @@
+Account server group project
+admin:
+	admin
+	admin
+utente:
+	user
+	user
+doctor:
+	doc
+	doc

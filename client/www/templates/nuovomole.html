@@ -1,0 +1,39 @@
+<ion-view>
+
+<ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title">Il profilo di {{mole.user_id}}</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="logout()">Logout</button>
+    </div>
+</ion-header-bar>
+  <div style="height:50px;"></div>
+
+        <label class="item item-input">
+        Name:<input type="text"  name="name" placeholder="Name" ng-model="mole.name">
+        </label>
+
+        <label class="item item-input">
+        x:<input type="text"  placeholder="x"  name="x" ng-model="mole.x">
+        </label>
+
+        <label class="item item-input">
+        y:<input type="text" placeholder="y"  name="y" ng-model="mole.y">
+        </label>
+
+        <label class="item item-input">
+        body_part:<input type="text"  placeholder="body_part"   name="body_part" ng-model="mole.body_part">
+        </label>
+
+        <label class="item item-input">
+        type:<input type="text"  placeholder="type" name="type"  ng-model="mole.type">
+        </label>
+
+        <button class="button button-full button-positive" ng-click="addMole()">
+            Conferma Neo
+        </button>
+         <button class="button button-full button-positive" ng-click="showHome()">
+            Return to home
+        </button>
+
+    </ion-content>
+</ion-view>

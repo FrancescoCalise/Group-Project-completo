@@ -1,0 +1,64 @@
+<ion-view>
+
+<ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title">Il profilo di {{currentaccount.name}}</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="logout()">Logout</button>
+    </div>
+</ion-header-bar>
+
+<div style="height:40px;"></div>
+
+        <label class="item item-input">
+            Email: {{currentaccount.email}}
+        </label>
+        <label class="item item-input">
+            Firstname: {{currentaccount.firstname}}
+        </label>
+        <label class="item item-input">
+            Lastname: {{currentaccount.lastname}}
+        </label>
+        <label class="item item-input">
+            Data di nascita: {{currentaccount.bod}}
+        </label>
+        <label class="item item-input">
+            Gender: {{currentaccount.gender}}
+        </label>
+
+         <label class="item item-input">
+        Location:<input type="text" value="{{currentaccount.location}}" name="location" placeholder="Location" ng-model="currentaccount.location">
+        </label>
+        <label class="item item-input">
+        Weight:<input type="text"  placeholder="Weight" value="{{currentaccount.weight}}" name="weight" ng-model="currentaccount.weight">
+        </label>
+        <label class="item item-input">
+        Height:<input type="text" placeholder="Height" value="{{currentaccount.height}}" name="height" ng-model="currentaccount.height">
+        </label>
+        <label class="item item-input">
+        Eye:<input type="text"  placeholder="Eye" value="{{currentaccount.eye}}"  name="eye" ng-model="currentaccount.eye">
+        </label>
+        <label class="item item-input">
+        Skin:<input type="text"  placeholder="Skin" value="{{currentaccount.skin}}"  name="skin" ng-model="currentaccount.skin">
+        </label>
+        <label class="item item-input">
+        Small_nevi:<input type="text"  placeholder="Small_nevi" value="{{currentaccount.small_nevi}}"  name="small_nevi" ng-model="currentaccount.small_nevi">
+        </label>
+        <label class="item item-input">
+        Large_nevi:<input type="text"  placeholder="Large_nevi" value="{{currentaccount.large_nevi}}" name="large_nevi" ng-model="currentaccount.large_nevi">
+        </label>
+        <label class="item item-input">
+        Sunburns:<input type="text"  placeholder="Sunburns" value="{{currentaccount.sunburns}}"name="sunburns" ng-model="currentaccount.sunburns">
+        </label>
+        <label class="item item-input">
+        Risk:<input type="text"  placeholder="Risk" name="risk" value="{{currentaccount.risk}}" ng-model="currentaccount.risk">
+        </label>
+        
+        <button class="button button-full button-positive" ng-click="update()">
+            Update
+        </button>
+         <button class="button button-full button-positive" ng-click="showHome()">
+            Return to home
+        </button>
+
+    </ion-content>
+</ion-view>
